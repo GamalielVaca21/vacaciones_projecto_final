@@ -1,0 +1,14 @@
+* Se necesita base de datos llamada "vacaciones". Se puede crear la base de datos junto con las tablas necesarias con vacaciones.sql
+* Se debe instalar el cliente MySQL para Node.js, desde la terminal con el siguiente comando: npm install mysql2
+* Para utilizar los metodos GET y POST se debe iniciar sesion como administrador:
+    Nombre: RODRIGUEZ ALDAMA CARLOS ANTONIO
+    Numero de usuario: 5678
+    Password: 5678
+*Tambien se puede crear un nuevo administrador, usando signup.html para crear un nuevo usario. Despues se debe buscar al usuario recien cread dentro de la base de datos y cambiar el valor tipo_usuario de "user" a "admin" manualmente.
+* Una ves dentro de admin_index.php, se puede hacer una solicitud de vacaciones dando click en "Solicitar Vacaciones" o se pueden usar las solicitudes que ya vienen dentro del archivo sql.
+* Si decide hacer una solicutd nueva y da click en "Solicitar Vacaciones" esto lo debe llevar a solicitar_vaciones.php donde puede seleccionar dias de vaciones y escribir un motivo.
+* Despues de esto, debe dar click en "Ver Todas las Solicitudes".
+* Luego se debe llamar a la api.js por medio de la terminal.
+* Luego se puede utilizar el GET ingresando un numero de usuario (5678 para el admin, 1234 para el usuario normal) y dando click en "Buscar". Esto debe mostrar las solicitudes que ha hecho el usuario con el numero ingresado (si es admin, debe ser 5678).
+* Despues puede utilizar el POST para ver las solicitudes pendientes. El admin es quien se encarga de aprobar o denegar solicitudes de vacaciones.
+* Al hacer uso del GET, cualquier solicitud que se visualize en el sitio tambien se visualiza en datos.json

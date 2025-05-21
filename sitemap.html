@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Site Map</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@800&display=swap&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 2em auto;
+            max-width: 800px;
+            padding: 2em;
+            color: #333;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            background: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 1.5em;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #2980b9;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #1a5276;
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 2em;
+        }
+
+        .section-title {
+            font-size: 1.2em;
+            margin-bottom: 0.5em;
+            color: #34495e;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        .nested ul {
+            margin-left: 20px;
+            padding-left: 10px;
+            border-left: 2px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Site Map</h1>
+
+    <div class="section">
+        <div class="section-title">Páginas Públicas</div>
+        <ul>
+            <li><a href="landing.html">Landing Page</a></li>
+            <li><a href="login.html">Formulario Log In</a></li>
+            <li><a href="signup.html">Formulario Sign Up</a></li>
+        </ul>
+    </div>
+
+    <div class="section nested">
+        <div class="section-title">Dashboard para Usuario</div>
+        <ul>
+            <li><a href="index.php">Inicio del Usuario</a></li>
+            <li><a href="solicitar_vacaciones.php">Solicitar Vacaciones</a></li>
+            <li><a href="historial.php">Ver Peticiones</a></li>
+            <li><a href="politica.php">Ver Política</a></li>
+            <li><a href="contacto.php">Contacto y Soporte</a></li>
+        </ul>
+    </div>
+
+    <div class="section nested">
+        <div class="section-title">Dashboard para Administrador</div>
+        <ul>
+            <li><a href="admin_index.php">Inicio del Administrador</a></li>
+            <li><a href="aprobar_solicitudes.php">Aprobar Solicitudes</a></li>
+            <li><a href="solicitar_vacaciones.php">Solicitar Vacaciones</a></li>
+            <li><a href="historial.php">Ver Peticiones</a></li>
+            <li><a href="buscar.php">Ver Todas las Solicitudes</a></li>
+            <li><a href="politica.php">Ver Política</a></li>
+            <li><a href="contacto.php">Contacto y Soporte</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear cuenta</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@800&display=swap&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form">
+        <form action="connect_signup.php" method="POST" enctype="multipart/form-data">
+            <h1>Informacion del empleado</h1><br>
+
+            <input type="number" name="turno" placeholder="Turno (1/2)" required>
+            <input type="number" name="numero_reloj" placeholder="Numero de Usuario" required>
+            <input type="text" name="nombre" maxlength="60" placeholder="Nombre completo" required>
+            <input type="password" name="password" placeholder="Contraseña de Usuario" required>
+            <input type="date" name="fecha_ingreso" placeholder="Fecha de ingreso" required>
+            <input type="number" name="antigüedad" placeholder="Antigüedad" required>
+            <input type="text" name="puesto" maxlength="36" placeholder="Puesto" required>
+            <input type="text" name="area" maxlength="30" placeholder="Area o departamento" required>
+            <input type="text" name="fecha_nacimiento" maxlength="8" placeholder="Fecha de nacimieto (dd-mm-yy)" required>
+            <input type="text" name="edad" maxlength="3" placeholder="Edad" required>
+            <input type="text" name="numero_telefono" maxlength="10" placeholder="Numero telefonico" required>
+
+            <br><br>
+            <button type="submit" class="send-button" name="enviar" value="Guardar">Enviar</button>
+            <div class="options">
+                <a href="login.html" id="signup">Volver</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

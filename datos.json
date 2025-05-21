@@ -1,0 +1,32 @@
+[
+  {
+    "id": 16,
+    "numero_reloj": 1037,
+    "fecha_inicio": "2025-05-06T06:00:00.000Z",
+    "fecha_fin": "2025-05-10T06:00:00.000Z",
+    "motivo": "Prueba",
+    "estado": "pendiente",
+    "fecha_solicitud": "2025-05-18T21:56:26.000Z",
+    "nombre": "GARCIA ALVARADO ADALBERTO"
+  },
+  {
+    "id": 17,
+    "numero_reloj": 1037,
+    "fecha_inicio": "2025-05-29T06:00:00.000Z",
+    "fecha_fin": "2025-05-31T06:00:00.000Z",
+    "motivo": "admin_index.php\r\n",
+    "estado": "pendiente",
+    "fecha_solicitud": "2025-05-18T21:59:54.000Z",
+    "nombre": "GARCIA ALVARADO ADALBERTO"
+  },
+  {
+    "id": 19,
+    "numero_reloj": 1037,
+    "fecha_inicio": "2025-05-01T06:00:00.000Z",
+    "fecha_fin": "2025-05-09T06:00:00.000Z",
+    "motivo": "",
+    "estado": "pendiente",
+    "fecha_solicitud": "2025-05-19T02:35:48.000Z",
+    "nombre": "GARCIA ALVARADO ADALBERTO"
+  }
+]
